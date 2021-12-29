@@ -5,6 +5,7 @@ html{
 body{
     min-width: 100vh;
     background-color: blue;
+    font-family: 'Poppins';
 
 }
 
@@ -33,7 +34,23 @@ body{
 }
 
 
-.Members {
-    background-color: red;
-    list-style: none;
+#Members {
+
+    list-style-type: none;
+}
+
+#Members ul{
+    list-style-type: none;
+    background-color: grey;
+    max-width: 600px;
+}
+
+.Member{
+    margin-bottom: 20px;
+    margin-left: 0;
+    border: 3px solid rgb(71, 71, 71);
+}
+
+h3{
+    margin: 0%;
 }
